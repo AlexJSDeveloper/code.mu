@@ -1,8 +1,8 @@
-let sum = 0;
-for (let i = 1; i < 100; i++) {
-    sum += i;
-    if (sum > 100) {
-        console.log(i);
-        break;
-    }
+let num = 12;
+let fuck = 1;
+
+for (let i = 1; i <= num; i++) {
+    fuck *= i;    
 }
+
+console.log(fuck);
